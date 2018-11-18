@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D38BC74621A1F50B00734E55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38BC74521A1F50B00734E55 /* AppDelegate.swift */; };
+		D38BC74821A1F50B00734E55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38BC74721A1F50B00734E55 /* ViewController.swift */; };
+		D38BC74B21A1F50B00734E55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38BC74921A1F50B00734E55 /* Main.storyboard */; };
+		D38BC74D21A1F50D00734E55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38BC74C21A1F50D00734E55 /* Assets.xcassets */; };
+		D38BC75021A1F50D00734E55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38BC74E21A1F50D00734E55 /* LaunchScreen.storyboard */; };
+		D38BC75B21A1F50D00734E55 /* MultiTaskAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38BC75A21A1F50D00734E55 /* MultiTaskAlarmTests.swift */; };
+		D38BC76621A1F50D00734E55 /* MultiTaskAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38BC76521A1F50D00734E55 /* MultiTaskAlarmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D38BC75721A1F50D00734E55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38BC73A21A1F50B00734E55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D38BC74121A1F50B00734E55;
+			remoteInfo = MultiTaskAlarm;
+		};
+		D38BC76221A1F50D00734E55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38BC73A21A1F50B00734E55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D38BC74121A1F50B00734E55;
+			remoteInfo = MultiTaskAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D38BC74221A1F50B00734E55 /* MultiTaskAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiTaskAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38BC74521A1F50B00734E55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D38BC74721A1F50B00734E55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D38BC74A21A1F50B00734E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D38BC74C21A1F50D00734E55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D38BC74F21A1F50D00734E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D38BC75121A1F50D00734E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38BC75621A1F50D00734E55 /* MultiTaskAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiTaskAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38BC75A21A1F50D00734E55 /* MultiTaskAlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTaskAlarmTests.swift; sourceTree = "<group>"; };
+		D38BC75C21A1F50D00734E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38BC76121A1F50D00734E55 /* MultiTaskAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiTaskAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38BC76521A1F50D00734E55 /* MultiTaskAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTaskAlarmUITests.swift; sourceTree = "<group>"; };
+		D38BC76721A1F50D00734E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D38BC73F21A1F50B00734E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38BC75321A1F50D00734E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38BC75E21A1F50D00734E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D38BC73921A1F50B00734E55 = {
+			isa = PBXGroup;
+			children = (
+				D38BC74421A1F50B00734E55 /* MultiTaskAlarm */,
+				D38BC75921A1F50D00734E55 /* MultiTaskAlarmTests */,
+				D38BC76421A1F50D00734E55 /* MultiTaskAlarmUITests */,
+				D38BC74321A1F50B00734E55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D38BC74321A1F50B00734E55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D38BC74221A1F50B00734E55 /* MultiTaskAlarm.app */,
+				D38BC75621A1F50D00734E55 /* MultiTaskAlarmTests.xctest */,
+				D38BC76121A1F50D00734E55 /* MultiTaskAlarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D38BC74421A1F50B00734E55 /* MultiTaskAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				D38BC74521A1F50B00734E55 /* AppDelegate.swift */,
+				D38BC74721A1F50B00734E55 /* ViewController.swift */,
+				D38BC74921A1F50B00734E55 /* Main.storyboard */,
+				D38BC74C21A1F50D00734E55 /* Assets.xcassets */,
+				D38BC74E21A1F50D00734E55 /* LaunchScreen.storyboard */,
+				D38BC75121A1F50D00734E55 /* Info.plist */,
+			);
+			path = MultiTaskAlarm;
+			sourceTree = "<group>";
+		};
+		D38BC75921A1F50D00734E55 /* MultiTaskAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				D38BC75A21A1F50D00734E55 /* MultiTaskAlarmTests.swift */,
+				D38BC75C21A1F50D00734E55 /* Info.plist */,
+			);
+			path = MultiTaskAlarmTests;
+			sourceTree = "<group>";
+		};
+		D38BC76421A1F50D00734E55 /* MultiTaskAlarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D38BC76521A1F50D00734E55 /* MultiTaskAlarmUITests.swift */,
+				D38BC76721A1F50D00734E55 /* Info.plist */,
+			);
+			path = MultiTaskAlarmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D38BC74121A1F50B00734E55 /* MultiTaskAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38BC76A21A1F50D00734E55 /* Build configuration list for PBXNativeTarget "MultiTaskAlarm" */;
+			buildPhases = (
+				D38BC73E21A1F50B00734E55 /* Sources */,
+				D38BC73F21A1F50B00734E55 /* Frameworks */,
+				D38BC74021A1F50B00734E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiTaskAlarm;
+			productName = MultiTaskAlarm;
+			productReference = D38BC74221A1F50B00734E55 /* MultiTaskAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D38BC75521A1F50D00734E55 /* MultiTaskAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38BC76D21A1F50D00734E55 /* Build configuration list for PBXNativeTarget "MultiTaskAlarmTests" */;
+			buildPhases = (
+				D38BC75221A1F50D00734E55 /* Sources */,
+				D38BC75321A1F50D00734E55 /* Frameworks */,
+				D38BC75421A1F50D00734E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D38BC75821A1F50D00734E55 /* PBXTargetDependency */,
+			);
+			name = MultiTaskAlarmTests;
+			productName = MultiTaskAlarmTests;
+			productReference = D38BC75621A1F50D00734E55 /* MultiTaskAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D38BC76021A1F50D00734E55 /* MultiTaskAlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38BC77021A1F50D00734E55 /* Build configuration list for PBXNativeTarget "MultiTaskAlarmUITests" */;
+			buildPhases = (
+				D38BC75D21A1F50D00734E55 /* Sources */,
+				D38BC75E21A1F50D00734E55 /* Frameworks */,
+				D38BC75F21A1F50D00734E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D38BC76321A1F50D00734E55 /* PBXTargetDependency */,
+			);
+			name = MultiTaskAlarmUITests;
+			productName = MultiTaskAlarmUITests;
+			productReference = D38BC76121A1F50D00734E55 /* MultiTaskAlarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D38BC73A21A1F50B00734E55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Fumiya Tanaka";
+				TargetAttributes = {
+					D38BC74121A1F50B00734E55 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D38BC75521A1F50D00734E55 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D38BC74121A1F50B00734E55;
+					};
+					D38BC76021A1F50D00734E55 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D38BC74121A1F50B00734E55;
+					};
+				};
+			};
+			buildConfigurationList = D38BC73D21A1F50B00734E55 /* Build configuration list for PBXProject "MultiTaskAlarm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D38BC73921A1F50B00734E55;
+			productRefGroup = D38BC74321A1F50B00734E55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D38BC74121A1F50B00734E55 /* MultiTaskAlarm */,
+				D38BC75521A1F50D00734E55 /* MultiTaskAlarmTests */,
+				D38BC76021A1F50D00734E55 /* MultiTaskAlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D38BC74021A1F50B00734E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38BC75021A1F50D00734E55 /* LaunchScreen.storyboard in Resources */,
+				D38BC74D21A1F50D00734E55 /* Assets.xcassets in Resources */,
+				D38BC74B21A1F50B00734E55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38BC75421A1F50D00734E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38BC75F21A1F50D00734E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D38BC73E21A1F50B00734E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38BC74821A1F50B00734E55 /* ViewController.swift in Sources */,
+				D38BC74621A1F50B00734E55 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38BC75221A1F50D00734E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38BC75B21A1F50D00734E55 /* MultiTaskAlarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38BC75D21A1F50D00734E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38BC76621A1F50D00734E55 /* MultiTaskAlarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D38BC75821A1F50D00734E55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D38BC74121A1F50B00734E55 /* MultiTaskAlarm */;
+			targetProxy = D38BC75721A1F50D00734E55 /* PBXContainerItemProxy */;
+		};
+		D38BC76321A1F50D00734E55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D38BC74121A1F50B00734E55 /* MultiTaskAlarm */;
+			targetProxy = D38BC76221A1F50D00734E55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D38BC74921A1F50B00734E55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D38BC74A21A1F50B00734E55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D38BC74E21A1F50D00734E55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D38BC74F21A1F50D00734E55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D38BC76821A1F50D00734E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D38BC76921A1F50D00734E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D38BC76B21A1F50D00734E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8WBNKMKYU;
+				INFOPLIST_FILE = MultiTaskAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fumiya.MultiTaskAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D38BC76C21A1F50D00734E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8WBNKMKYU;
+				INFOPLIST_FILE = MultiTaskAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fumiya.MultiTaskAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D38BC76E21A1F50D00734E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8WBNKMKYU;
+				INFOPLIST_FILE = MultiTaskAlarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fumiya.MultiTaskAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiTaskAlarm.app/MultiTaskAlarm";
+			};
+			name = Debug;
+		};
+		D38BC76F21A1F50D00734E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8WBNKMKYU;
+				INFOPLIST_FILE = MultiTaskAlarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fumiya.MultiTaskAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiTaskAlarm.app/MultiTaskAlarm";
+			};
+			name = Release;
+		};
+		D38BC77121A1F50D00734E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8WBNKMKYU;
+				INFOPLIST_FILE = MultiTaskAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fumiya.MultiTaskAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultiTaskAlarm;
+			};
+			name = Debug;
+		};
+		D38BC77221A1F50D00734E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8WBNKMKYU;
+				INFOPLIST_FILE = MultiTaskAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fumiya.MultiTaskAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultiTaskAlarm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D38BC73D21A1F50B00734E55 /* Build configuration list for PBXProject "MultiTaskAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38BC76821A1F50D00734E55 /* Debug */,
+				D38BC76921A1F50D00734E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D38BC76A21A1F50D00734E55 /* Build configuration list for PBXNativeTarget "MultiTaskAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38BC76B21A1F50D00734E55 /* Debug */,
+				D38BC76C21A1F50D00734E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D38BC76D21A1F50D00734E55 /* Build configuration list for PBXNativeTarget "MultiTaskAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38BC76E21A1F50D00734E55 /* Debug */,
+				D38BC76F21A1F50D00734E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D38BC77021A1F50D00734E55 /* Build configuration list for PBXNativeTarget "MultiTaskAlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38BC77121A1F50D00734E55 /* Debug */,
+				D38BC77221A1F50D00734E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D38BC73A21A1F50B00734E55 /* Project object */;
+}

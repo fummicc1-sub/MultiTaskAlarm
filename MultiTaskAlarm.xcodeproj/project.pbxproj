@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D32E84B821A58F8C003A3367 /* README_Sozai.mov in Resources */ = {isa = PBXBuildFile; fileRef = D32E84B721A58F8C003A3367 /* README_Sozai.mov */; };
 		D38BC74621A1F50B00734E55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38BC74521A1F50B00734E55 /* AppDelegate.swift */; };
 		D38BC74821A1F50B00734E55 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38BC74721A1F50B00734E55 /* AlarmViewController.swift */; };
 		D38BC74B21A1F50B00734E55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38BC74921A1F50B00734E55 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D32E84B621A58F48003A3367 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D32E84B721A58F8C003A3367 /* README_Sozai.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = README_Sozai.mov; sourceTree = "<group>"; };
 		D38BC74221A1F50B00734E55 /* MultiTaskAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiTaskAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38BC74521A1F50B00734E55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D38BC74721A1F50B00734E55 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 		D38BC73921A1F50B00734E55 = {
 			isa = PBXGroup;
 			children = (
+				D32E84B721A58F8C003A3367 /* README_Sozai.mov */,
+				D32E84B621A58F48003A3367 /* README.md */,
 				D38BC74421A1F50B00734E55 /* MultiTaskAlarm */,
 				D38BC75921A1F50D00734E55 /* MultiTaskAlarmTests */,
 				D38BC76421A1F50D00734E55 /* MultiTaskAlarmUITests */,
@@ -235,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32E84B821A58F8C003A3367 /* README_Sozai.mov in Resources */,
 				D38BC75021A1F50D00734E55 /* LaunchScreen.storyboard in Resources */,
 				D39A614F21A3F7040099D787 /* PiKitchen.mp3 in Resources */,
 				D38BC74D21A1F50D00734E55 /* Assets.xcassets in Resources */,

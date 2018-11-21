@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D38BC74621A1F50B00734E55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38BC74521A1F50B00734E55 /* AppDelegate.swift */; };
-		D38BC74821A1F50B00734E55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38BC74721A1F50B00734E55 /* ViewController.swift */; };
+		D38BC74821A1F50B00734E55 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38BC74721A1F50B00734E55 /* AlarmViewController.swift */; };
 		D38BC74B21A1F50B00734E55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38BC74921A1F50B00734E55 /* Main.storyboard */; };
 		D38BC74D21A1F50D00734E55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38BC74C21A1F50D00734E55 /* Assets.xcassets */; };
 		D38BC75021A1F50D00734E55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38BC74E21A1F50D00734E55 /* LaunchScreen.storyboard */; };
 		D38BC75B21A1F50D00734E55 /* MultiTaskAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38BC75A21A1F50D00734E55 /* MultiTaskAlarmTests.swift */; };
 		D38BC76621A1F50D00734E55 /* MultiTaskAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38BC76521A1F50D00734E55 /* MultiTaskAlarmUITests.swift */; };
+		D39A614D21A3F6EE0099D787 /* FinishKitchen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D39A614C21A3F6EE0099D787 /* FinishKitchen.mp3 */; };
+		D39A614F21A3F7040099D787 /* PiKitchen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D39A614E21A3F7040099D787 /* PiKitchen.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		D38BC74221A1F50B00734E55 /* MultiTaskAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiTaskAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38BC74521A1F50B00734E55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D38BC74721A1F50B00734E55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D38BC74721A1F50B00734E55 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
 		D38BC74A21A1F50B00734E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D38BC74C21A1F50D00734E55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D38BC74F21A1F50D00734E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		D38BC76121A1F50D00734E55 /* MultiTaskAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiTaskAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38BC76521A1F50D00734E55 /* MultiTaskAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTaskAlarmUITests.swift; sourceTree = "<group>"; };
 		D38BC76721A1F50D00734E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D39A614C21A3F6EE0099D787 /* FinishKitchen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FinishKitchen.mp3; sourceTree = "<group>"; };
+		D39A614E21A3F7040099D787 /* PiKitchen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PiKitchen.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				D38BC74521A1F50B00734E55 /* AppDelegate.swift */,
-				D38BC74721A1F50B00734E55 /* ViewController.swift */,
+				D38BC74721A1F50B00734E55 /* AlarmViewController.swift */,
 				D38BC74921A1F50B00734E55 /* Main.storyboard */,
 				D38BC74C21A1F50D00734E55 /* Assets.xcassets */,
 				D38BC74E21A1F50D00734E55 /* LaunchScreen.storyboard */,
 				D38BC75121A1F50D00734E55 /* Info.plist */,
+				D39A614C21A3F6EE0099D787 /* FinishKitchen.mp3 */,
+				D39A614E21A3F7040099D787 /* PiKitchen.mp3 */,
 			);
 			path = MultiTaskAlarm;
 			sourceTree = "<group>";
@@ -230,8 +236,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D38BC75021A1F50D00734E55 /* LaunchScreen.storyboard in Resources */,
+				D39A614F21A3F7040099D787 /* PiKitchen.mp3 in Resources */,
 				D38BC74D21A1F50D00734E55 /* Assets.xcassets in Resources */,
 				D38BC74B21A1F50B00734E55 /* Main.storyboard in Resources */,
+				D39A614D21A3F6EE0099D787 /* FinishKitchen.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D38BC74821A1F50B00734E55 /* ViewController.swift in Sources */,
+				D38BC74821A1F50B00734E55 /* AlarmViewController.swift in Sources */,
 				D38BC74621A1F50B00734E55 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

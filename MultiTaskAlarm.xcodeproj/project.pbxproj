@@ -204,6 +204,14 @@
 				TargetAttributes = {
 					D38BC74121A1F50B00734E55 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					D38BC75521A1F50D00734E55 = {
 						CreatedOnToolsVersion = 10.1;

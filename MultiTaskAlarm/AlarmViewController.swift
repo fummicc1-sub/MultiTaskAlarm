@@ -26,9 +26,7 @@ class AlarmViewController: UIViewController {
     var audioPlayerPinkEachTime: AVAudioPlayer!
     var audioPlayerLightBlueEachTime: AVAudioPlayer!
     
-    var pinkNotificationTrigger: UNNotificationTrigger!
-    
-    var lightBlueNotificationTrigger: UNNotificationTrigger!
+    let center = UNUserNotificationCenter.current()
     
     
     override func viewDidLoad() {
@@ -115,7 +113,6 @@ class AlarmViewController: UIViewController {
     
     func setupNotification() {
         
-        let center = UNUserNotificationCenter.current()
         center.requestAuthorization(options: [.alert, .badge, .sound]) { (granted, error) in
             
             if error != nil {
@@ -124,8 +121,6 @@ class AlarmViewController: UIViewController {
             
             if granted {
                 print("通知許可")
-                
-                center.delegate = self
             } else {
                 print("通知拒否")
             }
@@ -134,12 +129,28 @@ class AlarmViewController: UIViewController {
     
     func setPinkNotification(second: TimeInterval) {
         
-        pinkNotificationTrigger = UNTimeIntervalNotificationTrigger(timeInterval: second, repeats: false)
+        print(second)
+        
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: second, repeats: false)
+        
+        let content = UNMutableNotificationContent()
+        content.title = "ピンクのアラームが鳴ったよ"
+        
+        let request = UNNotificationRequest(identifier: "pink", content: content, trigger: trigger)
+        
+        center.add(request, withCompletionHandler: nil)
     }
     
     func setLightBlueNotification(second: TimeInterval) {
         
-        lightBlueNotificationTrigger = UNTimeIntervalNotificationTrigger(timeInterval: second, repeats: false)
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: second, repeats: false)
+        
+        let content = UNMutableNotificationContent()
+        content.title = "青いアラームが鳴ったよ"
+        
+        let request = UNNotificationRequest(identifier: "lightBlue", content: content, trigger: trigger)
+        
+        center.add(request, withCompletionHandler: nil)
     }
     
     @IBAction func tappedStartButton() {
@@ -149,6 +160,7 @@ class AlarmViewController: UIViewController {
         lightBlueTimer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateLightBlueTimer), userInfo: nil, repeats: true)
         
         setupNotification()
+        center.removeAllPendingNotificationRequests() // 初期化
         setPinkNotification(second: TimeInterval(pinkTimerSecond))
         setLightBlueNotification(second: TimeInterval(lightBlueTimerSecond))
     }
@@ -158,8 +170,15 @@ class AlarmViewController: UIViewController {
         pinkTimerSecond = pinkTimerSecond + 60
         formatDate(pinkTime: pinkTimerSecond)
         
-        setPinkNotification(second: TimeInterval(pinkTimerSecond))
-        setLightBlueNotification(second: TimeInterval(lightBlueTimerSecond))
+        center.removeAllPendingNotificationRequests()
+        
+        if pinkTimer.isValid {
+            setPinkNotification(second: TimeInterval(pinkTimerSecond))
+        }
+        
+        if lightBlueTimer.isValid {
+            setLightBlueNotification(second: TimeInterval(lightBlueTimerSecond))
+        }
     }
     
     @IBAction func tappedPlusSecondButtonPink() {
@@ -167,8 +186,15 @@ class AlarmViewController: UIViewController {
         pinkTimerSecond = pinkTimerSecond + 1
         formatDate(pinkTime: pinkTimerSecond)
         
-        setPinkNotification(second: TimeInterval(pinkTimerSecond))
-        setLightBlueNotification(second: TimeInterval(lightBlueTimerSecond))
+        center.removeAllPendingNotificationRequests()
+        
+        if pinkTimer.isValid {
+            setPinkNotification(second: TimeInterval(pinkTimerSecond))
+        }
+        
+        if lightBlueTimer.isValid {
+            setLightBlueNotification(second: TimeInterval(lightBlueTimerSecond))
+        }
     }
     
     @IBAction func tappedPlusMinuteLightBlue() {
@@ -176,19 +202,29 @@ class AlarmViewController: UIViewController {
         lightBlueTimerSecond = lightBlueTimerSecond + 60
         formatDate(lightBlueTime: lightBlueTimerSecond)
         
-        setPinkNotification(second: TimeInterval(pinkTimerSecond))
-        setLightBlueNotification(second: TimeInterval(lightBlueTimerSecond))
-    }
+        center.removeAllPendingNotificationRequests()
+        
+        if pinkTimer.isValid {
+            setPinkNotification(second: TimeInterval(pinkTimerSecond))
+        }
+        
+        if lightBlueTimer.isValid {
+            setLightBlueNotification(second: TimeInterval(lightBlueTimerSecond))
+        }    }
     
     @IBAction func tappedPlusSecondLightBlue() {
         
         lightBlueTimerSecond = lightBlueTimerSecond + 1
         formatDate(lightBlueTime: lightBlueTimerSecond)
         
-        setPinkNotification(second: TimeInterval(pinkTimerSecond))
-        setLightBlueNotification(second: TimeInterval(lightBlueTimerSecond))
+        center.removeAllPendingNotificationRequests()
+        
+        if pinkTimer.isValid {
+            setPinkNotification(second: TimeInterval(pinkTimerSecond))
+        }
+        
+        if lightBlueTimer.isValid {
+            setLightBlueNotification(second: TimeInterval(lightBlueTimerSecond))
+        }
     }
-}
-
-extension AlarmViewController: UNUserNotificationCenterDelegate {
 }
